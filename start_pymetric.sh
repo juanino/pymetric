@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # to install, add this line:
-#      /bin/bash /home/pi/waterpi/start_sensors.sh
+#      /bin/bash /home/pi/pymetric/start_pymetric.sh
 # 
 # to the /etc/rc.local, right before the exit 0
 
