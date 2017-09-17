@@ -19,7 +19,7 @@ def now():
 
 #collect_metric("pymetric.ping.switch", 49, now())
 
-hosts = ["8.8.8.8","www.ibm.com","www.yahoo.com"]
+hosts = cfg.hosts
 
 while True:
     for host in hosts:

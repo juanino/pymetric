@@ -1,0 +1,7 @@
+# set scrollback if you want it and have the memory
+# defscrollback 10000
+
+# create more windows
+chdir /home/pi/pymetric
+screen -t debug
+screen -t pymetric-poller ./pymetric.py
